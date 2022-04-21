@@ -1,23 +1,33 @@
 .container{
     display: flex;
-    /* flex-direction: row-reverse; */
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: row;
+    gap: 10px;
     flex-wrap: wrap;
 }
+.child{
+    flex-grow: 1;
+    width: 100px;
+}
+
+/* 
+.container{
+    justify-content: space-around;
+    align-items: flex-start;
+}
 .uno{
-    /* flex-grow: 1; */
-    /* align-self: center; */
+    flex-grow: 1;
+    align-self: center;
 }
 .dos{
-    /* flex-grow: 2; */
-    /* align-self: flex-start; */
+    flex-grow: 2;
+    align-self: flex-start;
 }
 .tres{
-    /* flex-grow: 1; */
-    /* align-self: flex-end; */
+    flex-grow: 1;
+    align-self: flex-end;
 }
 .child{
     width: 100px;
     height: 100px;
-}
+} 
+ */
